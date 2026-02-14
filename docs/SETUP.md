@@ -37,7 +37,7 @@ After Debian boots, login as root and run:
 apt-get install -y git
 
 # Clone your ft_linux repo
-git clone <your-repo-url> /tmp/ft_linux
+git clone https://github.com/NomanMunir/ft_linux.git /tmp/ft_linux
 
 # Run the provisioning script
 # /dev/sdb is the second disk you added

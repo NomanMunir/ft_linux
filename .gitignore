@@ -1,0 +1,28 @@
+# VM artifacts
+*.vdi
+*.vmdk
+*.ova
+*.ovf
+*.iso
+*.img
+*.qcow2
+
+# Vagrant
+.vagrant/
+lfs_disk.vdi
+
+# OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# LFS build artifacts (if any end up here)
+*.tar.*
+*.patch
