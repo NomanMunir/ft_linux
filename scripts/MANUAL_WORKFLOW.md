@@ -120,7 +120,6 @@ swapon /dev/sdb2
 ```
 
 Then switch to the lfs user: `su - lfs`
-- [ ] Kernel module loader present (udev/eudev)
 
 ## Cleanup (if needed)
 
