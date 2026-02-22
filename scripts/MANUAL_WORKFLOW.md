@@ -89,6 +89,17 @@ bash scripts/07_configure_system/configure_fstab.sh /dev/sdb3 /dev/sdb1 /mnt/lfs
 
 See `scripts/06_build_system/README.md` for guidance.
 
+## ft_linux Subject Requirements Checklist (nmunir)
+
+- [ ] Kernel version includes login: `-nmunir`
+- [ ] Kernel sources located at `/usr/src/kernel-<version>`
+- [ ] Hostname set to `nmunir`
+- [ ] Kernel image name in `/boot`: `vmlinuz-<linux_version>-nmunir`
+- [ ] At least 3 partitions: `/`, `/boot`, swap
+- [ ] Bootloader configured (GRUB or LILO)
+- [ ] Service manager installed (SysVinit or systemd)
+- [ ] Kernel module loader present (udev/eudev)
+
 ## Cleanup (if needed)
 
 Unmount all LFS filesystems:
